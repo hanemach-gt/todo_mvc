@@ -1,14 +1,15 @@
 class TodoItem():
 
     def __init__(self, name = "", description = "", is_done = False):
-        pass
+        self.name = name
+        self.description = description
+        self.is_done = is_done
 
     def set_name(self, name):
-        pass
+        self.name = name
 
     def set_desc(self, description):
-        pass
+        self.description = description
 
     def set_done(status = True):
-        pass
-    
+        self.is_done = status
